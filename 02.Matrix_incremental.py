@@ -1,3 +1,17 @@
+# Crea una matriz cuadrada de tamaño n x n donde:
+# - Cada fila comienza con un número incrementado respecto a la fila anterior
+# - Cada columna aumenta en 1 hacia la derecha
+# Por ejemplo, manual_incrementing_matrix(5) genera:
+# [
+#  [0, 1, 2, 3, 4],
+#  [1, 2, 3, 4, 5],
+#  [2, 3, 4, 5, 6],
+#  [3, 4, 5, 6, 7],
+#  [4, 5, 6, 7, 8]
+# ]
+
+
+
 def manual_incrementing_matrix(n):
     matrix = [ [ None for y in range(n) ] for x in range(n) ]
 
@@ -12,13 +26,3 @@ def manual_incrementing_matrix(n):
     return matrix
 
 print(manual_incrementing_matrix(5))
-
-"""
-[
-    [0, 1, 2, 3, 4],
-    [1, 2, 3, 4, 5],
-    [2, 3, 4, 5, 6],
-    [3, 4, 5, 6, 7],
-    [4, 5, 6, 7, 8],
-]
-"""
