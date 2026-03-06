@@ -44,6 +44,6 @@ def weighted_lottery(weights):
 
     return np.random.choice(container_list)
 
-
+print(weighted_lottery(weights))
 
 print(weighted_lottery(other_weights))
